@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="731.0" prefWidth="1224.0" style="-fx-background-color: #2E1D1E;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="731.0" fitWidth="1224.0" opacity="0.16" pickOnBounds="true">
+         <image>
+            <Image url="@images/plexus-futuristic-modern-design-connections-vector.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="736.0" layoutY="95.0" opacity="0.84" prefHeight="513.0" prefWidth="400.0" style="-fx-background-color: #A63627;">
+         <children>
+            <JFXTextField focusColor="WHITE" labelFloat="true" layoutX="45.0" layoutY="161.0" prefHeight="42.0" prefWidth="311.0" promptText="Username" style="-fx-background-color: #A63627;" unFocusColor="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField focusColor="WHITE" labelFloat="true" layoutX="45.0" layoutY="266.0" prefHeight="44.0" prefWidth="311.0" promptText="Password" style="-fx-background-color: #A63627;" unFocusColor="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXPasswordField>
+            <Label layoutX="136.0" layoutY="54.0" prefHeight="58.0" prefWidth="128.0" text="Sign In" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="78.0" layoutY="356.0" prefHeight="44.0" prefWidth="245.0" style="-fx-background-color: #B86054;" text="Sign In" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="94.0" layoutY="373.0" prefHeight="105.0" prefWidth="548.0" text="Haven't signed up yet? &#10;Join our global network of Felix!&#10;" textFill="#808080">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="205.0" layoutY="511.0" prefHeight="44.0" prefWidth="287.0" style="-fx-background-color: #B86054;" text="Sign up" textFill="WHITE" />
+      <Label layoutX="94.0" layoutY="142.0" prefHeight="58.0" prefWidth="508.0" text="Welcome to Application" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="207.0" prefHeight="65.0" prefWidth="475.0" text="The greatest to ever exist." textFill="#868686">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="886.0" layoutY="533.0" text="Forgot passwort?" textFill="#3d4d80" />
+   </children>
+</AnchorPane>
